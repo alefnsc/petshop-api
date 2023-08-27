@@ -1,0 +1,301 @@
+2023-08-20T01:13:23.459Z [petshop-api] info GET /owner - []
+2023-08-20T01:14:18.692Z [petshop-api] error POST  - Required field is missing: phone
+2023-08-20T01:14:28.172Z [petshop-api] info POST /owner - {"name":"teste","phone":"121931934"}
+2023-08-20T01:15:12.697Z [petshop-api] info POST /owner - {"owner_id":"1","name":"batata","phone":"121931934"}
+2023-08-20T01:15:16.466Z [petshop-api] info GET /owner - [{"proprietario_id":1,"nome":"batata","telefone":"121931934"}]
+2023-08-20T01:16:01.883Z [petshop-api] info GET /owner/:id - 1
+2023-08-20T01:43:55.399Z [petshop-api] error DELETE  - id is not defined
+2023-08-20T01:45:30.983Z [petshop-api] error DELETE  - id is not defined
+2023-08-20T01:48:21.047Z [petshop-api] error DELETE  - sql is not defined
+2023-08-20T01:48:42.577Z [petshop-api] error DELETE  - id is not defined
+2023-08-20T01:48:53.512Z [petshop-api] info GET /owner - [{"proprietario_id":1,"nome":"batata","telefone":"121931934"}]
+2023-08-20T01:48:56.804Z [petshop-api] error DELETE  - id is not defined
+2023-08-20T01:51:14.869Z [petshop-api] error DELETE  - id is not defined
+2023-08-20T01:53:44.528Z [petshop-api] error DELETE  - id is not defined
+2023-08-20T01:54:40.151Z [petshop-api] error DELETE  - id is not defined
+2023-08-20T01:56:58.614Z [petshop-api] error DELETE  - syntax error at or near "RETURNING"
+2023-08-20T02:34:04.618Z [petshop-api] error DELETE  - syntax error at or near "RETURNING"
+2023-08-20T02:35:17.744Z [petshop-api] error DELETE  - syntax error at or near "RETURNING"
+2023-08-20T02:36:32.358Z [petshop-api] error DELETE  - id is not defined
+2023-08-20T02:38:12.936Z [petshop-api] error DELETE  - id is not defined
+2023-08-20T02:40:15.321Z [petshop-api] error DELETE  - id is not defined
+2023-08-20T02:40:47.655Z [petshop-api] error DELETE  - id is not defined
+2023-08-20T02:41:02.435Z [petshop-api] error DELETE  - id is not defined
+2023-08-20T02:41:14.095Z [petshop-api] error DELETE  - id is not defined
+2023-08-20T02:41:16.658Z [petshop-api] error DELETE  - The Owner requested not exist
+2023-08-20T02:41:24.092Z [petshop-api] info GET /owner - []
+2023-08-20T02:41:27.403Z [petshop-api] info POST /owner - {"name":"teste","phone":"121931934"}
+2023-08-20T02:41:29.340Z [petshop-api] info POST /owner - {"name":"teste2","phone":"121931934"}
+2023-08-20T02:41:32.732Z [petshop-api] info POST /owner - {"name":"teste3","phone":"121931934"}
+2023-08-20T02:42:00.366Z [petshop-api] info GET /pet - []
+2023-08-20T02:43:20.865Z [petshop-api] info GET /owner - [{"proprietario_id":2,"nome":"teste","telefone":"121931934"},{"proprietario_id":3,"nome":"teste2","telefone":"121931934"},{"proprietario_id":4,"nome":"teste3","telefone":"121931934"}]
+2023-08-20T02:43:35.896Z [petshop-api] error POST  - Required field is missing: proprietario_id
+2023-08-20T02:43:55.595Z [petshop-api] error POST  - PetService.insertPet is not a function
+2023-08-20T02:43:55.819Z [petshop-api] error POST  - PetService.insertPet is not a function
+2023-08-20T02:44:17.049Z [petshop-api] error POST  - null value in column "nome" violates not-null constraint
+2023-08-20T02:45:18.408Z [petshop-api] info POST /pet - {"name":"coelho","type":"da páscoa","owner_id":3}
+2023-08-20T02:45:20.943Z [petshop-api] info GET /pet - [{"animal_id":2,"nome":"coelho","tipo":"da páscoa","proprietario_id":3}]
+2023-08-20T02:45:34.758Z [petshop-api] info POST /pet - {"name":"cachorro","type":"do egito","owner_id":2}
+2023-08-20T02:45:54.886Z [petshop-api] info POST /pet - {"name":"Salem","type":"gato","owner_id":3}
+2023-08-20T02:46:02.015Z [petshop-api] info POST /pet - {"name":"Banguela","type":"gato","owner_id":2}
+2023-08-20T02:46:09.506Z [petshop-api] error DELETE  - The Owner could not be delete due its existing pets
+2023-08-20T02:48:39.796Z [petshop-api] error PUT  - Required field is missing: pet_id
+2023-08-20T02:48:45.761Z [petshop-api] error PUT  - Required field is missing: name
+2023-08-20T02:48:58.086Z [petshop-api] info PUT /pet - {"pet_id":2,"name":"coelho","type":"da páscoa","owner_id":3}
+2023-08-20T02:49:12.914Z [petshop-api] info PUT /pet - {"pet_id":2,"name":"Zé pulinho","type":"coelho","owner_id":3}
+2023-08-20T02:49:15.780Z [petshop-api] info GET /pet - [{"animal_id":3,"nome":"cachorro","tipo":"do egito","proprietario_id":2},{"animal_id":4,"nome":"Salem","tipo":"gato","proprietario_id":3},{"animal_id":5,"nome":"Banguela","tipo":"gato","proprietario_id":2},{"animal_id":2,"nome":"Zé pulinho","tipo":"coelho","proprietario_id":3}]
+2023-08-20T02:49:35.228Z [petshop-api] info GET /pet - [{"animal_id":3,"nome":"cachorro","tipo":"do egito","proprietario_id":2},{"animal_id":4,"nome":"Salem","tipo":"gato","proprietario_id":3},{"animal_id":5,"nome":"Banguela","tipo":"gato","proprietario_id":2},{"animal_id":2,"nome":"Zé pulinho","tipo":"coelho","proprietario_id":3}]
+2023-08-20T02:49:47.494Z [petshop-api] error DELETE  - The Owner could not be delete due its existing pets
+2023-08-20T02:49:56.216Z [petshop-api] info DELETE /pet/:id - 3
+2023-08-20T02:49:59.083Z [petshop-api] info GET /pet - [{"animal_id":3,"nome":"cachorro","tipo":"do egito","proprietario_id":2},{"animal_id":4,"nome":"Salem","tipo":"gato","proprietario_id":3},{"animal_id":5,"nome":"Banguela","tipo":"gato","proprietario_id":2},{"animal_id":2,"nome":"Zé pulinho","tipo":"coelho","proprietario_id":3}]
+2023-08-20T02:50:01.758Z [petshop-api] info GET /pet - [{"animal_id":3,"nome":"cachorro","tipo":"do egito","proprietario_id":2},{"animal_id":4,"nome":"Salem","tipo":"gato","proprietario_id":3},{"animal_id":5,"nome":"Banguela","tipo":"gato","proprietario_id":2},{"animal_id":2,"nome":"Zé pulinho","tipo":"coelho","proprietario_id":3}]
+2023-08-20T02:50:04.004Z [petshop-api] info DELETE /pet/:id - 3
+2023-08-20T02:50:54.763Z [petshop-api] info GET /pet - [{"animal_id":3,"nome":"cachorro","tipo":"do egito","proprietario_id":2},{"animal_id":4,"nome":"Salem","tipo":"gato","proprietario_id":3},{"animal_id":5,"nome":"Banguela","tipo":"gato","proprietario_id":2},{"animal_id":2,"nome":"Zé pulinho","tipo":"coelho","proprietario_id":3}]
+2023-08-20T02:51:02.363Z [petshop-api] error DELETE  - id is not defined
+2023-08-20T02:51:19.119Z [petshop-api] error DELETE  - id is not defined
+2023-08-20T02:51:25.945Z [petshop-api] info GET /pet - [{"animal_id":4,"nome":"Salem","tipo":"gato","proprietario_id":3},{"animal_id":5,"nome":"Banguela","tipo":"gato","proprietario_id":2},{"animal_id":2,"nome":"Zé pulinho","tipo":"coelho","proprietario_id":3}]
+2023-08-20T02:52:30.570Z [petshop-api] info GET /pet - [{"animal_id":4,"nome":"Salem","tipo":"gato","proprietario_id":3},{"animal_id":5,"nome":"Banguela","tipo":"gato","proprietario_id":2},{"animal_id":2,"nome":"Zé pulinho","tipo":"coelho","proprietario_id":3}]
+2023-08-20T02:52:37.267Z [petshop-api] info GET /pet/:id - 3
+2023-08-20T02:52:39.921Z [petshop-api] info GET /pet/:id - 4
+2023-08-20T02:53:07.225Z [petshop-api] info GET /pet - [{"animal_id":4,"nome":"Salem","tipo":"gato","proprietario_id":3},{"animal_id":5,"nome":"Banguela","tipo":"gato","proprietario_id":2},{"animal_id":2,"nome":"Zé pulinho","tipo":"coelho","proprietario_id":3}]
+2023-08-20T02:56:51.090Z [petshop-api] info GET /pet - [{"animal_id":4,"nome":"Salem","tipo":"gato","proprietario_id":3},{"animal_id":5,"nome":"Banguela","tipo":"gato","proprietario_id":2},{"animal_id":2,"nome":"Zé pulinho","tipo":"coelho","proprietario_id":3}]
+2023-08-20T02:57:12.657Z [petshop-api] info GET /pet - [{"animal_id":4,"nome":"Salem","tipo":"gato","proprietario_id":3},{"animal_id":5,"nome":"Banguela","tipo":"gato","proprietario_id":2},{"animal_id":2,"nome":"Zé pulinho","tipo":"coelho","proprietario_id":3}]
+2023-08-20T02:59:00.510Z [petshop-api] info GET /pet - [{"animal_id":4,"nome":"Salem","tipo":"gato","proprietario_id":3},{"animal_id":5,"nome":"Banguela","tipo":"gato","proprietario_id":2},{"animal_id":2,"nome":"Zé pulinho","tipo":"coelho","proprietario_id":3}]
+2023-08-20T02:59:27.817Z [petshop-api] error GET  - owner is not defined
+2023-08-20T02:59:31.822Z [petshop-api] error GET  - owner is not defined
+2023-08-20T02:59:41.308Z [petshop-api] info GET /pet - [{"animal_id":4,"nome":"Salem","tipo":"gato","proprietario_id":3},{"animal_id":5,"nome":"Banguela","tipo":"gato","proprietario_id":2},{"animal_id":2,"nome":"Zé pulinho","tipo":"coelho","proprietario_id":3}]
+2023-08-20T02:59:59.813Z [petshop-api] error GET  - id is not defined
+2023-08-20T03:00:45.095Z [petshop-api] info GET /pet - undefined
+2023-08-20T03:01:07.587Z [petshop-api] info GET /pet - undefined
+2023-08-20T03:01:29.819Z [petshop-api] info GET /pet - undefined
+2023-08-20T03:02:08.236Z [petshop-api] info GET /pet - [{"animal_id":4,"nome":"Salem","tipo":"gato","proprietario_id":3},{"animal_id":2,"nome":"Zé pulinho","tipo":"coelho","proprietario_id":3}]
+2023-08-20T03:02:13.659Z [petshop-api] info GET /pet - []
+2023-08-20T03:02:16.315Z [petshop-api] info GET /pet - [{"animal_id":5,"nome":"Banguela","tipo":"gato","proprietario_id":2}]
+2023-08-20T03:03:38.806Z [petshop-api] info GET /pet - [{"animal_id":5,"nome":"Banguela","tipo":"gato","proprietario_id":2}]
+2023-08-20T03:03:41.044Z [petshop-api] info GET /pet - []
+2023-08-20T03:03:58.492Z [petshop-api] info GET /pet - []
+2023-08-20T03:04:04.292Z [petshop-api] info GET /pet - []
+2023-08-20T03:04:33.718Z [petshop-api] error GET  - empty is not defined
+2023-08-20T03:04:51.083Z [petshop-api] info GET /pet - []
+2023-08-20T03:05:58.678Z [petshop-api] error GET  - The requested owner don't have pets
+2023-08-20T03:06:07.465Z [petshop-api] info GET /pet - [{"animal_id":5,"nome":"Banguela","tipo":"gato","proprietario_id":2}]
+2023-08-20T03:11:28.461Z [petshop-api] info GET /owner - []
+2023-08-20T03:11:30.872Z [petshop-api] info POST /owner - {"name":"Alda Valentim","phone":"(39) 98566-1222"}
+2023-08-20T03:11:58.859Z [petshop-api] info POST /owner - {"name":"Nicolas Avelar","phone":"(28) 97432-0379"}
+2023-08-20T03:12:27.101Z [petshop-api] info POST /owner - {"name":"Emilly Baptista","phone":"(31) 99545-2457"}
+2023-08-20T03:12:49.624Z [petshop-api] info POST /owner - {"name":"Beatriz Bonilha","phone":"(35) 98054-4724"}
+2023-08-20T03:13:13.783Z [petshop-api] info POST /owner - {"name":"Nataniel Faleiro","phone":"(33) 99594-3315"}
+2023-08-20T03:13:24.630Z [petshop-api] info POST /owner - {"name":"Richard Santos","phone":"(33) 99594-3315"}
+2023-08-20T03:14:02.191Z [petshop-api] info POST /owner - {"owner_id":6,"name":"Richard Santos","phone":"(27) 99597-9170"}
+2023-08-20T03:14:31.547Z [petshop-api] info POST /pet - {"name":"Billy","type":"Cachorro","owner_id":1}
+2023-08-20T03:14:46.029Z [petshop-api] info POST /pet - {"name":"Nala","type":"Cachorro","owner_id":2}
+2023-08-20T03:14:55.290Z [petshop-api] info POST /pet - {"name":"Mimi","type":"Gato","owner_id":2}
+2023-08-20T03:15:10.872Z [petshop-api] info POST /pet - {"name":"Dory","type":"Cachorro","owner_id":3}
+2023-08-20T03:15:23.057Z [petshop-api] info POST /pet - {"name":"Lulu","type":"Cachorro","owner_id":4}
+2023-08-20T03:15:28.890Z [petshop-api] info POST /pet - {"name":"Bob","type":"Cachorro","owner_id":5}
+2023-08-20T03:15:37.658Z [petshop-api] info POST /pet - {"name":"Milu","type":"Cachorro","owner_id":5}
+2023-08-20T03:15:50.636Z [petshop-api] info POST /pet - {"name":"Emmy","type":"Gato","owner_id":5}
+2023-08-20T03:16:00.114Z [petshop-api] info POST /pet - {"name":"Amora","type":"Cachorro","owner_id":6}
+2023-08-20T03:16:21.992Z [petshop-api] info GET /pet - [{"animal_id":6,"nome":"Bob","tipo":"Cachorro","proprietario_id":5},{"animal_id":7,"nome":"Milu","tipo":"Cachorro","proprietario_id":5},{"animal_id":8,"nome":"Emmy","tipo":"Gato","proprietario_id":5}]
+2023-08-20T03:18:01.904Z [petshop-api] error POST  - Expected double-quoted property name in JSON at position 20
+2023-08-20T03:18:31.476Z [petshop-api] info POST /pet - {"name":"Totó","type":"Cachorro","owner_id":6}
+2023-08-20T03:18:43.653Z [petshop-api] info GET /pet - [{"animal_id":9,"nome":"Amora","tipo":"Cachorro","proprietario_id":6},{"animal_id":10,"nome":"Totó","tipo":"Cachorro","proprietario_id":6}]
+2023-08-20T03:19:00.134Z [petshop-api] info GET /pet - [{"animal_id":2,"nome":"Nala","tipo":"Cachorro","proprietario_id":2},{"animal_id":3,"nome":"Mimi","tipo":"Gato","proprietario_id":2}]
+2023-08-20T03:19:23.854Z [petshop-api] info GET /pet/:id - 4
+2023-08-20T03:19:30.707Z [petshop-api] info GET /owner/:id - 3
+2023-08-20T03:20:13.497Z [petshop-api] info GET /pet/:id - 6
+2023-08-20T03:20:18.329Z [petshop-api] info GET /owner/:id - 5
+2023-08-20T03:20:30.600Z [petshop-api] error DELETE  - id is not defined
+2023-08-20T03:20:32.908Z [petshop-api] info GET /pet - [{"animal_id":2,"nome":"Nala","tipo":"Cachorro","proprietario_id":2},{"animal_id":3,"nome":"Mimi","tipo":"Gato","proprietario_id":2},{"animal_id":4,"nome":"Dory","tipo":"Cachorro","proprietario_id":3},{"animal_id":5,"nome":"Lulu","tipo":"Cachorro","proprietario_id":4},{"animal_id":6,"nome":"Bob","tipo":"Cachorro","proprietario_id":5},{"animal_id":7,"nome":"Milu","tipo":"Cachorro","proprietario_id":5},{"animal_id":8,"nome":"Emmy","tipo":"Gato","proprietario_id":5},{"animal_id":9,"nome":"Amora","tipo":"Cachorro","proprietario_id":6},{"animal_id":10,"nome":"Totó","tipo":"Cachorro","proprietario_id":6}]
+2023-08-20T03:20:47.656Z [petshop-api] error GET  - The requested owner don't have pets
+2023-08-27T01:57:02.803Z [petshop-api] error GET  - column "proprietario_i_d" does not exist
+2023-08-27T01:57:45.355Z [petshop-api] info GET /owner - [{"proprietarioId":1,"nome":"Alda Valentim","telefone":"(39) 98566-1222"},{"proprietarioId":2,"nome":"Nicolas Avelar","telefone":"(28) 97432-0379"},{"proprietarioId":3,"nome":"Emilly Baptista","telefone":"(31) 99545-2457"},{"proprietarioId":4,"nome":"Beatriz Bonilha","telefone":"(35) 98054-4724"},{"proprietarioId":5,"nome":"Nataniel Faleiro","telefone":"(33) 99594-3315"},{"proprietarioId":6,"nome":"Richard Santos","telefone":"(27) 99597-9170"}]
+2023-08-27T01:57:49.531Z [petshop-api] error POST  - notNull Violation: proprietarios.nome cannot be null,
+notNull Violation: proprietarios.telefone cannot be null
+2023-08-27T01:58:07.734Z [petshop-api] error POST  - Required field is missing: name
+2023-08-27T02:00:23.030Z [petshop-api] info POST /owner - {"nome":"Richard Santos","telefone":"(33) 99594-3315"}
+2023-08-27T02:00:31.784Z [petshop-api] info GET /owner - [{"proprietarioId":1,"nome":"Alda Valentim","telefone":"(39) 98566-1222"},{"proprietarioId":2,"nome":"Nicolas Avelar","telefone":"(28) 97432-0379"},{"proprietarioId":3,"nome":"Emilly Baptista","telefone":"(31) 99545-2457"},{"proprietarioId":4,"nome":"Beatriz Bonilha","telefone":"(35) 98054-4724"},{"proprietarioId":5,"nome":"Nataniel Faleiro","telefone":"(33) 99594-3315"},{"proprietarioId":6,"nome":"Richard Santos","telefone":"(27) 99597-9170"},{"proprietarioId":7,"nome":"Richard Santos","telefone":"(33) 99594-3315"}]
+2023-08-27T02:00:40.836Z [petshop-api] error DELETE  - connect is not a function
+2023-08-27T02:01:06.727Z [petshop-api] error DELETE  - connect is not a function
+2023-08-27T02:05:14.806Z [petshop-api] error DELETE  - connect is not defined
+2023-08-27T02:10:03.547Z [petshop-api] error DELETE  - column "proprietario_i_d" does not exist
+2023-08-27T02:11:16.456Z [petshop-api] error DELETE  - The Owner could not be delete due its existing pets
+2023-08-27T02:12:23.753Z [petshop-api] error PUT  - proprietario is not defined
+2023-08-27T02:13:21.673Z [petshop-api] error PUT  - Required field is missing: proprietarioId
+2023-08-27T02:13:29.495Z [petshop-api] error PUT  - proprietario is not defined
+2023-08-27T02:15:02.056Z [petshop-api] error PUT  - owner is not defined
+2023-08-27T02:15:19.921Z [petshop-api] error PUT  - proprietario is not defined
+2023-08-27T02:17:08.358Z [petshop-api] info POST /owner - {"proprietarioId":6,"nome":"Richard Passos","telefone":"(27) 99597-9170"}
+2023-08-27T02:17:51.661Z [petshop-api] info GET /owner - [{"proprietarioId":1,"nome":"Alda Valentim","telefone":"(39) 98566-1222"},{"proprietarioId":2,"nome":"Nicolas Avelar","telefone":"(28) 97432-0379"},{"proprietarioId":3,"nome":"Emilly Baptista","telefone":"(31) 99545-2457"},{"proprietarioId":4,"nome":"Beatriz Bonilha","telefone":"(35) 98054-4724"},{"proprietarioId":5,"nome":"Nataniel Faleiro","telefone":"(33) 99594-3315"},{"proprietarioId":6,"nome":"Richard Santos","telefone":"(27) 99597-9170"},{"proprietarioId":7,"nome":"Richard Santos","telefone":"(33) 99594-3315"}]
+2023-08-27T02:17:56.048Z [petshop-api] info GET /owner - [{"proprietarioId":1,"nome":"Alda Valentim","telefone":"(39) 98566-1222"},{"proprietarioId":2,"nome":"Nicolas Avelar","telefone":"(28) 97432-0379"},{"proprietarioId":3,"nome":"Emilly Baptista","telefone":"(31) 99545-2457"},{"proprietarioId":4,"nome":"Beatriz Bonilha","telefone":"(35) 98054-4724"},{"proprietarioId":5,"nome":"Nataniel Faleiro","telefone":"(33) 99594-3315"},{"proprietarioId":6,"nome":"Richard Santos","telefone":"(27) 99597-9170"},{"proprietarioId":7,"nome":"Richard Santos","telefone":"(33) 99594-3315"}]
+2023-08-27T02:18:00.128Z [petshop-api] info POST /owner - {"proprietarioId":6,"nome":"Richard Passos","telefone":"(27) 99597-9170"}
+2023-08-27T02:19:12.902Z [petshop-api] info PUT /owner - {"proprietarioId":6,"nome":"Richard Passos","telefone":"(27) 99597-9170"}
+2023-08-27T02:19:21.006Z [petshop-api] info GET /owner - [{"proprietarioId":1,"nome":"Alda Valentim","telefone":"(39) 98566-1222"},{"proprietarioId":2,"nome":"Nicolas Avelar","telefone":"(28) 97432-0379"},{"proprietarioId":3,"nome":"Emilly Baptista","telefone":"(31) 99545-2457"},{"proprietarioId":4,"nome":"Beatriz Bonilha","telefone":"(35) 98054-4724"},{"proprietarioId":5,"nome":"Nataniel Faleiro","telefone":"(33) 99594-3315"},{"proprietarioId":6,"nome":"Richard Santos","telefone":"(27) 99597-9170"},{"proprietarioId":7,"nome":"Richard Santos","telefone":"(33) 99594-3315"}]
+2023-08-27T02:19:39.056Z [petshop-api] info PUT /owner - {"proprietarioId":6,"nome":"Richard Passos","telefone":"(27) 99597-9170"}
+2023-08-27T02:21:10.054Z [petshop-api] info PUT /owner - {"proprietarioId":6,"nome":"Richard Passos","telefone":"(27) 99597-9170"}
+2023-08-27T02:21:18.410Z [petshop-api] info GET /owner - [{"proprietarioId":1,"nome":"Alda Valentim","telefone":"(39) 98566-1222"},{"proprietarioId":2,"nome":"Nicolas Avelar","telefone":"(28) 97432-0379"},{"proprietarioId":3,"nome":"Emilly Baptista","telefone":"(31) 99545-2457"},{"proprietarioId":4,"nome":"Beatriz Bonilha","telefone":"(35) 98054-4724"},{"proprietarioId":5,"nome":"Nataniel Faleiro","telefone":"(33) 99594-3315"},{"proprietarioId":7,"nome":"Richard Santos","telefone":"(33) 99594-3315"},{"proprietarioId":6,"nome":"Richard Passos","telefone":"(27) 99597-9170"}]
+2023-08-27T02:21:20.687Z [petshop-api] info GET /owner - [{"proprietarioId":1,"nome":"Alda Valentim","telefone":"(39) 98566-1222"},{"proprietarioId":2,"nome":"Nicolas Avelar","telefone":"(28) 97432-0379"},{"proprietarioId":3,"nome":"Emilly Baptista","telefone":"(31) 99545-2457"},{"proprietarioId":4,"nome":"Beatriz Bonilha","telefone":"(35) 98054-4724"},{"proprietarioId":5,"nome":"Nataniel Faleiro","telefone":"(33) 99594-3315"},{"proprietarioId":7,"nome":"Richard Santos","telefone":"(33) 99594-3315"},{"proprietarioId":6,"nome":"Richard Passos","telefone":"(27) 99597-9170"}]
+2023-08-27T02:21:45.352Z [petshop-api] info PUT /owner - {"proprietarioId":6,"nome":"Richard Passos","telefone":"(27) 99597-9170"}
+2023-08-27T02:21:48.814Z [petshop-api] info PUT /owner - {"proprietarioId":6,"nome":"Richard teste","telefone":"(27) 99597-9170"}
+2023-08-27T02:21:51.680Z [petshop-api] info GET /owner - [{"proprietarioId":1,"nome":"Alda Valentim","telefone":"(39) 98566-1222"},{"proprietarioId":2,"nome":"Nicolas Avelar","telefone":"(28) 97432-0379"},{"proprietarioId":3,"nome":"Emilly Baptista","telefone":"(31) 99545-2457"},{"proprietarioId":4,"nome":"Beatriz Bonilha","telefone":"(35) 98054-4724"},{"proprietarioId":5,"nome":"Nataniel Faleiro","telefone":"(33) 99594-3315"},{"proprietarioId":7,"nome":"Richard Santos","telefone":"(33) 99594-3315"},{"proprietarioId":6,"nome":"Richard teste","telefone":"(27) 99597-9170"}]
+2023-08-27T02:30:50.137Z [petshop-api] info GET /owner - [{"proprietarioId":1,"nome":"Alda Valentim","telefone":"(39) 98566-1222"},{"proprietarioId":2,"nome":"Nicolas Avelar","telefone":"(28) 97432-0379"},{"proprietarioId":3,"nome":"Emilly Baptista","telefone":"(31) 99545-2457"},{"proprietarioId":4,"nome":"Beatriz Bonilha","telefone":"(35) 98054-4724"},{"proprietarioId":5,"nome":"Nataniel Faleiro","telefone":"(33) 99594-3315"},{"proprietarioId":7,"nome":"Richard Santos","telefone":"(33) 99594-3315"},{"proprietarioId":6,"nome":"Richard teste","telefone":"(27) 99597-9170"}]
+2023-08-27T02:30:58.906Z [petshop-api] info GET /owner/:id - 1
+2023-08-27T02:31:02.603Z [petshop-api] info GET /owner/:id - 2
+2023-08-27T02:31:11.113Z [petshop-api] error DELETE  - The Owner could not be delete due its existing pets
+2023-08-27T02:31:19.802Z [petshop-api] error GET  - The requested owner don't have pets
+2023-08-27T02:33:09.596Z [petshop-api] error GET  - The requested owner don't have pets
+2023-08-27T02:33:22.890Z [petshop-api] error GET  - The requested owner don't have pets
+2023-08-27T02:35:08.208Z [petshop-api] error DELETE  - The Owner could not be delete due its existing pets
+2023-08-27T02:36:42.484Z [petshop-api] error DELETE  - id is not defined
+2023-08-27T02:38:45.871Z [petshop-api] error DELETE  - The Owner requested not exist
+2023-08-27T02:38:50.668Z [petshop-api] info GET /owner - [{"proprietarioId":1,"nome":"Alda Valentim","telefone":"(39) 98566-1222"},{"proprietarioId":2,"nome":"Nicolas Avelar","telefone":"(28) 97432-0379"},{"proprietarioId":3,"nome":"Emilly Baptista","telefone":"(31) 99545-2457"},{"proprietarioId":4,"nome":"Beatriz Bonilha","telefone":"(35) 98054-4724"},{"proprietarioId":5,"nome":"Nataniel Faleiro","telefone":"(33) 99594-3315"},{"proprietarioId":6,"nome":"Richard teste","telefone":"(27) 99597-9170"}]
+2023-08-27T02:39:00.951Z [petshop-api] error DELETE  - update or delete on table "proprietarios" violates foreign key constraint "animais_proprietario_id_fkey" on table "animais"
+2023-08-27T02:39:31.417Z [petshop-api] error DELETE  - update or delete on table "proprietarios" violates foreign key constraint "animais_proprietario_id_fkey" on table "animais"
+2023-08-27T02:40:08.818Z [petshop-api] error DELETE  - update or delete on table "proprietarios" violates foreign key constraint "animais_proprietario_id_fkey" on table "animais"
+2023-08-27T02:40:32.127Z [petshop-api] error DELETE  - The Owner could not be delete due its existing pets
+2023-08-27T02:40:48.917Z [petshop-api] info POST /owner - {"nome":"Richard Santos","telefone":"(33) 99594-3315"}
+2023-08-27T02:40:50.042Z [petshop-api] info POST /owner - {"nome":"Richard Santos","telefone":"(33) 99594-3315"}
+2023-08-27T02:40:56.654Z [petshop-api] error DELETE  - The Owner could not be delete due its existing pets
+2023-08-27T02:41:31.438Z [petshop-api] error DELETE  - The Owner could not be delete due its existing pets
+2023-08-27T02:41:43.358Z [petshop-api] error DELETE  - id is not defined
+2023-08-27T02:41:49.064Z [petshop-api] info GET /owner - [{"proprietarioId":1,"nome":"Alda Valentim","telefone":"(39) 98566-1222"},{"proprietarioId":2,"nome":"Nicolas Avelar","telefone":"(28) 97432-0379"},{"proprietarioId":3,"nome":"Emilly Baptista","telefone":"(31) 99545-2457"},{"proprietarioId":4,"nome":"Beatriz Bonilha","telefone":"(35) 98054-4724"},{"proprietarioId":5,"nome":"Nataniel Faleiro","telefone":"(33) 99594-3315"},{"proprietarioId":6,"nome":"Richard teste","telefone":"(27) 99597-9170"},{"proprietarioId":9,"nome":"Richard Santos","telefone":"(33) 99594-3315"}]
+2023-08-27T02:41:56.135Z [petshop-api] error DELETE  - id is not defined
+2023-08-27T02:41:59.185Z [petshop-api] info GET /owner - [{"proprietarioId":1,"nome":"Alda Valentim","telefone":"(39) 98566-1222"},{"proprietarioId":2,"nome":"Nicolas Avelar","telefone":"(28) 97432-0379"},{"proprietarioId":3,"nome":"Emilly Baptista","telefone":"(31) 99545-2457"},{"proprietarioId":4,"nome":"Beatriz Bonilha","telefone":"(35) 98054-4724"},{"proprietarioId":5,"nome":"Nataniel Faleiro","telefone":"(33) 99594-3315"},{"proprietarioId":6,"nome":"Richard teste","telefone":"(27) 99597-9170"}]
+2023-08-27T02:43:13.583Z [petshop-api] info POST /owner - {"nome":"Richard Santos","telefone":"(33) 99594-3315"}
+2023-08-27T02:43:21.127Z [petshop-api] error DELETE  - id is not defined
+2023-08-27T02:43:28.301Z [petshop-api] info GET /owner - [{"proprietarioId":1,"nome":"Alda Valentim","telefone":"(39) 98566-1222"},{"proprietarioId":2,"nome":"Nicolas Avelar","telefone":"(28) 97432-0379"},{"proprietarioId":3,"nome":"Emilly Baptista","telefone":"(31) 99545-2457"},{"proprietarioId":4,"nome":"Beatriz Bonilha","telefone":"(35) 98054-4724"},{"proprietarioId":5,"nome":"Nataniel Faleiro","telefone":"(33) 99594-3315"},{"proprietarioId":6,"nome":"Richard teste","telefone":"(27) 99597-9170"}]
+2023-08-27T02:43:47.914Z [petshop-api] info POST /owner - {"nome":"Richard Santos","telefone":"(33) 99594-3315"}
+2023-08-27T02:43:53.007Z [petshop-api] error DELETE  - id is not defined
+2023-08-27T02:44:33.025Z [petshop-api] info POST /owner - {"nome":"Richard Santos","telefone":"(33) 99594-3315"}
+2023-08-27T02:44:37.171Z [petshop-api] error DELETE  - id is not defined
+2023-08-27T02:45:06.367Z [petshop-api] info GET /owner - [{"proprietarioId":1,"nome":"Alda Valentim","telefone":"(39) 98566-1222"},{"proprietarioId":2,"nome":"Nicolas Avelar","telefone":"(28) 97432-0379"},{"proprietarioId":3,"nome":"Emilly Baptista","telefone":"(31) 99545-2457"},{"proprietarioId":4,"nome":"Beatriz Bonilha","telefone":"(35) 98054-4724"},{"proprietarioId":5,"nome":"Nataniel Faleiro","telefone":"(33) 99594-3315"},{"proprietarioId":6,"nome":"Richard teste","telefone":"(27) 99597-9170"}]
+2023-08-27T02:49:05.751Z [petshop-api] info POST /owner - {"nome":"Richard Santos","telefone":"(33) 99594-3315"}
+2023-08-27T02:49:09.707Z [petshop-api] info DELETE /owner/:id - "13"
+2023-08-27T02:49:47.263Z [petshop-api] info GET /owner - [{"proprietarioId":1,"nome":"Alda Valentim","telefone":"(39) 98566-1222"},{"proprietarioId":2,"nome":"Nicolas Avelar","telefone":"(28) 97432-0379"},{"proprietarioId":3,"nome":"Emilly Baptista","telefone":"(31) 99545-2457"},{"proprietarioId":4,"nome":"Beatriz Bonilha","telefone":"(35) 98054-4724"},{"proprietarioId":5,"nome":"Nataniel Faleiro","telefone":"(33) 99594-3315"},{"proprietarioId":6,"nome":"Richard teste","telefone":"(27) 99597-9170"}]
+2023-08-27T02:49:50.482Z [petshop-api] info POST /owner - {"nome":"Richard Santos","telefone":"(33) 99594-3315"}
+2023-08-27T02:49:57.070Z [petshop-api] info DELETE /owner/:id - "14"
+2023-08-27T02:51:26.231Z [petshop-api] info POST /owner - {"nome":"Richard Santos","telefone":"(33) 99594-3315"}
+2023-08-27T02:51:30.854Z [petshop-api] info DELETE /owner/:id - "15"
+2023-08-27T02:56:39.305Z [petshop-api] info POST /owner - {"nome":"Richard Santos","telefone":"(33) 99594-3315"}
+2023-08-27T02:56:45.288Z [petshop-api] error DELETE  - The Owner requested not exist
+2023-08-27T02:56:50.585Z [petshop-api] info GET /owner - [{"proprietarioId":1,"nome":"Alda Valentim","telefone":"(39) 98566-1222"},{"proprietarioId":2,"nome":"Nicolas Avelar","telefone":"(28) 97432-0379"},{"proprietarioId":3,"nome":"Emilly Baptista","telefone":"(31) 99545-2457"},{"proprietarioId":4,"nome":"Beatriz Bonilha","telefone":"(35) 98054-4724"},{"proprietarioId":5,"nome":"Nataniel Faleiro","telefone":"(33) 99594-3315"},{"proprietarioId":6,"nome":"Richard teste","telefone":"(27) 99597-9170"},{"proprietarioId":16,"nome":"Richard Santos","telefone":"(33) 99594-3315"}]
+2023-08-27T02:57:07.191Z [petshop-api] error DELETE  - The Owner requested not exist
+2023-08-27T03:00:07.367Z [petshop-api] error DELETE  - The Owner requested not exist
+2023-08-27T03:00:07.403Z [petshop-api] error DELETE  - The Owner requested not exist
+2023-08-27T03:00:17.282Z [petshop-api] info GET /owner - [{"proprietarioId":1,"nome":"Alda Valentim","telefone":"(39) 98566-1222"},{"proprietarioId":2,"nome":"Nicolas Avelar","telefone":"(28) 97432-0379"},{"proprietarioId":3,"nome":"Emilly Baptista","telefone":"(31) 99545-2457"},{"proprietarioId":4,"nome":"Beatriz Bonilha","telefone":"(35) 98054-4724"},{"proprietarioId":5,"nome":"Nataniel Faleiro","telefone":"(33) 99594-3315"},{"proprietarioId":6,"nome":"Richard teste","telefone":"(27) 99597-9170"},{"proprietarioId":16,"nome":"Richard Santos","telefone":"(33) 99594-3315"}]
+2023-08-27T13:13:22.037Z [petshop-api] info GET /owner - [{"proprietarioId":1,"nome":"Alda Valentim","telefone":"(39) 98566-1222"},{"proprietarioId":2,"nome":"Nicolas Avelar","telefone":"(28) 97432-0379"},{"proprietarioId":3,"nome":"Emilly Baptista","telefone":"(31) 99545-2457"},{"proprietarioId":4,"nome":"Beatriz Bonilha","telefone":"(35) 98054-4724"},{"proprietarioId":5,"nome":"Nataniel Faleiro","telefone":"(33) 99594-3315"},{"proprietarioId":6,"nome":"Richard teste","telefone":"(27) 99597-9170"},{"proprietarioId":16,"nome":"Richard Santos","telefone":"(33) 99594-3315"}]
+2023-08-27T13:13:30.066Z [petshop-api] info DELETE /owner/:id - "16"
+2023-08-27T13:13:38.574Z [petshop-api] info GET /owner - [{"proprietarioId":1,"nome":"Alda Valentim","telefone":"(39) 98566-1222"},{"proprietarioId":2,"nome":"Nicolas Avelar","telefone":"(28) 97432-0379"},{"proprietarioId":3,"nome":"Emilly Baptista","telefone":"(31) 99545-2457"},{"proprietarioId":4,"nome":"Beatriz Bonilha","telefone":"(35) 98054-4724"},{"proprietarioId":5,"nome":"Nataniel Faleiro","telefone":"(33) 99594-3315"},{"proprietarioId":6,"nome":"Richard teste","telefone":"(27) 99597-9170"}]
+2023-08-27T13:13:52.591Z [petshop-api] info POST /owner - {"nome":"Richard Santos","telefone":"(33) 99594-3315"}
+2023-08-27T13:14:32.022Z [petshop-api] error DELETE  - The Owner requested not exist
+2023-08-27T13:15:22.586Z [petshop-api] info DELETE /owner/:id - "17"
+2023-08-27T13:15:39.912Z [petshop-api] info GET /owner - [{"proprietarioId":1,"nome":"Alda Valentim","telefone":"(39) 98566-1222"},{"proprietarioId":2,"nome":"Nicolas Avelar","telefone":"(28) 97432-0379"},{"proprietarioId":3,"nome":"Emilly Baptista","telefone":"(31) 99545-2457"},{"proprietarioId":4,"nome":"Beatriz Bonilha","telefone":"(35) 98054-4724"},{"proprietarioId":5,"nome":"Nataniel Faleiro","telefone":"(33) 99594-3315"},{"proprietarioId":6,"nome":"Richard teste","telefone":"(27) 99597-9170"}]
+2023-08-27T13:16:04.813Z [petshop-api] info GET /owner/:id - 2
+2023-08-27T13:16:09.843Z [petshop-api] info PUT /owner - {"proprietarioId":6,"nome":"Richard t","telefone":"(27) 99597-9170"}
+2023-08-27T13:16:13.853Z [petshop-api] info GET /owner - [{"proprietarioId":1,"nome":"Alda Valentim","telefone":"(39) 98566-1222"},{"proprietarioId":2,"nome":"Nicolas Avelar","telefone":"(28) 97432-0379"},{"proprietarioId":3,"nome":"Emilly Baptista","telefone":"(31) 99545-2457"},{"proprietarioId":4,"nome":"Beatriz Bonilha","telefone":"(35) 98054-4724"},{"proprietarioId":5,"nome":"Nataniel Faleiro","telefone":"(33) 99594-3315"},{"proprietarioId":6,"nome":"Richard t","telefone":"(27) 99597-9170"}]
+2023-08-27T13:16:16.949Z [petshop-api] info GET /pet - [{"animalId":2,"nome":"Nala","tipo":"Cachorro","proprietarioId":2},{"animalId":3,"nome":"Mimi","tipo":"Gato","proprietarioId":2},{"animalId":4,"nome":"Dory","tipo":"Cachorro","proprietarioId":3},{"animalId":5,"nome":"Lulu","tipo":"Cachorro","proprietarioId":4},{"animalId":6,"nome":"Bob","tipo":"Cachorro","proprietarioId":5},{"animalId":7,"nome":"Milu","tipo":"Cachorro","proprietarioId":5},{"animalId":8,"nome":"Emmy","tipo":"Gato","proprietarioId":5},{"animalId":9,"nome":"Amora","tipo":"Cachorro","proprietarioId":6},{"animalId":10,"nome":"Totó","tipo":"Cachorro","proprietarioId":6}]
+2023-08-27T13:16:26.019Z [petshop-api] error POST  - notNull Violation: animais.nome cannot be null,
+notNull Violation: animais.tipo cannot be null
+2023-08-27T13:16:46.133Z [petshop-api] error POST  - Required field is missing: name
+2023-08-27T13:17:38.652Z [petshop-api] info POST /pet - {"nome":"fifi","tipo":"Cachorro","proprietarioId":6}
+2023-08-27T13:17:45.753Z [petshop-api] info GET /pet - [{"animalId":2,"nome":"Nala","tipo":"Cachorro","proprietarioId":2},{"animalId":3,"nome":"Mimi","tipo":"Gato","proprietarioId":2},{"animalId":4,"nome":"Dory","tipo":"Cachorro","proprietarioId":3},{"animalId":5,"nome":"Lulu","tipo":"Cachorro","proprietarioId":4},{"animalId":6,"nome":"Bob","tipo":"Cachorro","proprietarioId":5},{"animalId":7,"nome":"Milu","tipo":"Cachorro","proprietarioId":5},{"animalId":8,"nome":"Emmy","tipo":"Gato","proprietarioId":5},{"animalId":9,"nome":"Amora","tipo":"Cachorro","proprietarioId":6},{"animalId":10,"nome":"Totó","tipo":"Cachorro","proprietarioId":6},{"animalId":11,"nome":"fifi","tipo":"Cachorro","proprietarioId":6}]
+2023-08-27T13:18:26.937Z [petshop-api] error PUT  - animal is not defined
+2023-08-27T13:19:50.638Z [petshop-api] info PUT /pet - {"animalId":1,"nome":"filomena","tipo":"Cachorro","proprietarioId":6}
+2023-08-27T13:19:56.824Z [petshop-api] info GET /pet - [{"animalId":2,"nome":"Nala","tipo":"Cachorro","proprietarioId":2},{"animalId":3,"nome":"Mimi","tipo":"Gato","proprietarioId":2},{"animalId":4,"nome":"Dory","tipo":"Cachorro","proprietarioId":3},{"animalId":5,"nome":"Lulu","tipo":"Cachorro","proprietarioId":4},{"animalId":6,"nome":"Bob","tipo":"Cachorro","proprietarioId":5},{"animalId":7,"nome":"Milu","tipo":"Cachorro","proprietarioId":5},{"animalId":8,"nome":"Emmy","tipo":"Gato","proprietarioId":5},{"animalId":9,"nome":"Amora","tipo":"Cachorro","proprietarioId":6},{"animalId":10,"nome":"Totó","tipo":"Cachorro","proprietarioId":6},{"animalId":11,"nome":"fifi","tipo":"Cachorro","proprietarioId":6}]
+2023-08-27T13:20:02.866Z [petshop-api] info PUT /pet - {"animalId":11,"nome":"filomena","tipo":"Cachorro","proprietarioId":6}
+2023-08-27T13:20:09.662Z [petshop-api] info GET /pet - [{"animalId":2,"nome":"Nala","tipo":"Cachorro","proprietarioId":2},{"animalId":3,"nome":"Mimi","tipo":"Gato","proprietarioId":2},{"animalId":4,"nome":"Dory","tipo":"Cachorro","proprietarioId":3},{"animalId":5,"nome":"Lulu","tipo":"Cachorro","proprietarioId":4},{"animalId":6,"nome":"Bob","tipo":"Cachorro","proprietarioId":5},{"animalId":7,"nome":"Milu","tipo":"Cachorro","proprietarioId":5},{"animalId":8,"nome":"Emmy","tipo":"Gato","proprietarioId":5},{"animalId":9,"nome":"Amora","tipo":"Cachorro","proprietarioId":6},{"animalId":10,"nome":"Totó","tipo":"Cachorro","proprietarioId":6},{"animalId":11,"nome":"filomena","tipo":"Cachorro","proprietarioId":6}]
+2023-08-27T13:21:25.376Z [petshop-api] info GET /pet/:id - 6
+2023-08-27T13:21:33.647Z [petshop-api] info GET /pet - [{"animalId":9,"nome":"Amora","tipo":"Cachorro","proprietarioId":6},{"animalId":10,"nome":"Totó","tipo":"Cachorro","proprietarioId":6},{"animalId":11,"nome":"filomena","tipo":"Cachorro","proprietarioId":6}]
+2023-08-27T13:21:38.377Z [petshop-api] info GET /pet/:id - 6
+2023-08-27T13:21:43.677Z [petshop-api] error DELETE  - id is not defined
+2023-08-27T13:21:47.630Z [petshop-api] info GET /pet - [{"animalId":2,"nome":"Nala","tipo":"Cachorro","proprietarioId":2},{"animalId":3,"nome":"Mimi","tipo":"Gato","proprietarioId":2},{"animalId":4,"nome":"Dory","tipo":"Cachorro","proprietarioId":3},{"animalId":5,"nome":"Lulu","tipo":"Cachorro","proprietarioId":4},{"animalId":6,"nome":"Bob","tipo":"Cachorro","proprietarioId":5},{"animalId":7,"nome":"Milu","tipo":"Cachorro","proprietarioId":5},{"animalId":8,"nome":"Emmy","tipo":"Gato","proprietarioId":5},{"animalId":9,"nome":"Amora","tipo":"Cachorro","proprietarioId":6},{"animalId":10,"nome":"Totó","tipo":"Cachorro","proprietarioId":6}]
+2023-08-27T13:22:30.554Z [petshop-api] error DELETE  - id is not defined
+2023-08-27T13:23:14.044Z [petshop-api] info GET /pet - [{"animalId":2,"nome":"Nala","tipo":"Cachorro","proprietarioId":2},{"animalId":3,"nome":"Mimi","tipo":"Gato","proprietarioId":2},{"animalId":4,"nome":"Dory","tipo":"Cachorro","proprietarioId":3},{"animalId":5,"nome":"Lulu","tipo":"Cachorro","proprietarioId":4},{"animalId":6,"nome":"Bob","tipo":"Cachorro","proprietarioId":5},{"animalId":7,"nome":"Milu","tipo":"Cachorro","proprietarioId":5},{"animalId":8,"nome":"Emmy","tipo":"Gato","proprietarioId":5},{"animalId":9,"nome":"Amora","tipo":"Cachorro","proprietarioId":6}]
+2023-08-27T13:23:19.030Z [petshop-api] info POST /pet - {"nome":"fifi","tipo":"Cachorro","proprietarioId":6}
+2023-08-27T13:23:24.261Z [petshop-api] info DELETE /pet/:id - "12"
+2023-08-27T13:24:25.895Z [petshop-api] info POST /pet - {"nome":"fifi","tipo":"Cachorro","proprietarioId":6}
+2023-08-27T13:24:37.408Z [petshop-api] info PUT /pet - {"animalId":13,"nome":"petista","tipo":"Cachorro","proprietarioId":6}
+2023-08-27T13:24:42.603Z [petshop-api] info DELETE /pet/:id - "13"
+2023-08-27T13:25:49.517Z [petshop-api] info POST /pet - {"nome":"fifi","tipo":"Cachorro","proprietarioId":6}
+2023-08-27T13:25:54.705Z [petshop-api] info DELETE /pet/:id - "14"
+2023-08-27T13:26:58.596Z [petshop-api] info POST /pet - {"nome":"fifi","tipo":"Cachorro","proprietarioId":6}
+2023-08-27T13:27:02.374Z [petshop-api] info DELETE /pet/:id - "15"
+2023-08-27T13:27:22.389Z [petshop-api] info GET /pet/:id - 6
+2023-08-27T13:27:24.456Z [petshop-api] info GET /pet - [{"animalId":9,"nome":"Amora","tipo":"Cachorro","proprietarioId":6}]
+2023-08-27T13:27:37.430Z [petshop-api] info PUT /pet - {"animalId":2,"nome":"petista","tipo":"Cachorro","proprietarioId":6}
+2023-08-27T13:27:41.073Z [petshop-api] info POST /pet - {"nome":"fifi","tipo":"Cachorro","proprietarioId":6}
+2023-08-27T13:27:42.703Z [petshop-api] info GET /pet - [{"animalId":3,"nome":"Mimi","tipo":"Gato","proprietarioId":2},{"animalId":4,"nome":"Dory","tipo":"Cachorro","proprietarioId":3},{"animalId":5,"nome":"Lulu","tipo":"Cachorro","proprietarioId":4},{"animalId":6,"nome":"Bob","tipo":"Cachorro","proprietarioId":5},{"animalId":7,"nome":"Milu","tipo":"Cachorro","proprietarioId":5},{"animalId":8,"nome":"Emmy","tipo":"Gato","proprietarioId":5},{"animalId":9,"nome":"Amora","tipo":"Cachorro","proprietarioId":6},{"animalId":2,"nome":"petista","tipo":"Cachorro","proprietarioId":6},{"animalId":16,"nome":"fifi","tipo":"Cachorro","proprietarioId":6}]
+2023-08-27T13:27:53.406Z [petshop-api] info GET /pet - [{"animalId":9,"nome":"Amora","tipo":"Cachorro","proprietarioId":6},{"animalId":2,"nome":"petista","tipo":"Cachorro","proprietarioId":6},{"animalId":16,"nome":"fifi","tipo":"Cachorro","proprietarioId":6}]
+2023-08-27T13:28:09.303Z [petshop-api] info GET /owner/:id - 2
+2023-08-27T13:28:14.055Z [petshop-api] error DELETE  - The Owner could not be delete due its existing pets
+2023-08-27T13:28:20.689Z [petshop-api] info GET /owner/:id - 2
+2023-08-27T13:28:23.080Z [petshop-api] info GET /owner - [{"proprietarioId":1,"nome":"Alda Valentim","telefone":"(39) 98566-1222"},{"proprietarioId":2,"nome":"Nicolas Avelar","telefone":"(28) 97432-0379"},{"proprietarioId":3,"nome":"Emilly Baptista","telefone":"(31) 99545-2457"},{"proprietarioId":4,"nome":"Beatriz Bonilha","telefone":"(35) 98054-4724"},{"proprietarioId":5,"nome":"Nataniel Faleiro","telefone":"(33) 99594-3315"},{"proprietarioId":6,"nome":"Richard t","telefone":"(27) 99597-9170"}]
+2023-08-27T13:28:27.258Z [petshop-api] info POST /owner - {"nome":"Richard Santos","telefone":"(33) 99594-3315"}
+2023-08-27T13:28:32.297Z [petshop-api] info DELETE /owner/:id - "18"
+2023-08-27T13:31:00.296Z [petshop-api] info POST /owner - {"nome":"Richard Santos","telefone":"(33) 99594-3315"}
+2023-08-27T13:31:05.428Z [petshop-api] info DELETE /owner/:id - "19"
+2023-08-27T14:47:41.918Z [petshop-api] info GET /pet - [{"animalId":9,"nome":"Amora","tipo":"Cachorro","proprietarioId":6},{"animalId":2,"nome":"petista","tipo":"Cachorro","proprietarioId":6},{"animalId":16,"nome":"fifi","tipo":"Cachorro","proprietarioId":6}]
+2023-08-27T14:51:05.028Z [petshop-api] info GET /pet - [{"animalId":3,"nome":"Mimi","tipo":"Gato","proprietarioId":2}]
+2023-08-27T15:09:50.036Z [petshop-api] error GET  - services is not defined
+2023-08-27T15:11:37.646Z [petshop-api] info GET /service - []
+2023-08-27T15:12:10.909Z [petshop-api] info GET /pet - [{"animalId":3,"nome":"Mimi","tipo":"Gato","proprietarioId":2},{"animalId":4,"nome":"Dory","tipo":"Cachorro","proprietarioId":3},{"animalId":5,"nome":"Lulu","tipo":"Cachorro","proprietarioId":4},{"animalId":6,"nome":"Bob","tipo":"Cachorro","proprietarioId":5},{"animalId":7,"nome":"Milu","tipo":"Cachorro","proprietarioId":5},{"animalId":8,"nome":"Emmy","tipo":"Gato","proprietarioId":5},{"animalId":9,"nome":"Amora","tipo":"Cachorro","proprietarioId":6},{"animalId":2,"nome":"petista","tipo":"Cachorro","proprietarioId":6},{"animalId":16,"nome":"fifi","tipo":"Cachorro","proprietarioId":6}]
+2023-08-27T15:13:02.977Z [petshop-api] info POST /service - {"descricao":"Tosa","valor":25,"animalId":"3"}
+2023-08-27T15:13:08.705Z [petshop-api] error POST  - insert or update on table "servicos" violates foreign key constraint "servicos_animal_id_fkey"
+2023-08-27T15:13:33.577Z [petshop-api] info GET /pet - [{"animalId":3,"nome":"Mimi","tipo":"Gato","proprietarioId":2},{"animalId":4,"nome":"Dory","tipo":"Cachorro","proprietarioId":3},{"animalId":5,"nome":"Lulu","tipo":"Cachorro","proprietarioId":4},{"animalId":6,"nome":"Bob","tipo":"Cachorro","proprietarioId":5},{"animalId":7,"nome":"Milu","tipo":"Cachorro","proprietarioId":5},{"animalId":8,"nome":"Emmy","tipo":"Gato","proprietarioId":5},{"animalId":9,"nome":"Amora","tipo":"Cachorro","proprietarioId":6},{"animalId":2,"nome":"petista","tipo":"Cachorro","proprietarioId":6},{"animalId":16,"nome":"fifi","tipo":"Cachorro","proprietarioId":6}]
+2023-08-27T15:16:27.296Z [petshop-api] error POST  - insert or update on table "servicos" violates foreign key constraint "servicos_animal_id_fkey"
+2023-08-27T15:17:38.828Z [petshop-api] error POST  - The pet you're trying to create a service doesn't exist
+2023-08-27T15:17:46.467Z [petshop-api] info POST /service - {"descricao":"Tosa","valor":25,"animalId":"16"}
+2023-08-27T15:17:50.094Z [petshop-api] info GET /service - [{"servicoId":1,"descricao":"Tosa","valor":"25","animalId":3},{"servicoId":4,"descricao":"Tosa","valor":"25","animalId":16}]
+2023-08-27T15:18:27.064Z [petshop-api] info GET /service - [{"servicoId":1,"descricao":"Tosa","valor":"25","animalId":3},{"servicoId":4,"descricao":"Tosa","valor":"25","animalId":16}]
+2023-08-27T15:18:40.259Z [petshop-api] error GET  - The requested pets doesn't have services
+2023-08-27T15:19:31.250Z [petshop-api] info GET /pet - [{"animalId":3,"nome":"Mimi","tipo":"Gato","proprietarioId":2},{"animalId":4,"nome":"Dory","tipo":"Cachorro","proprietarioId":3},{"animalId":5,"nome":"Lulu","tipo":"Cachorro","proprietarioId":4},{"animalId":6,"nome":"Bob","tipo":"Cachorro","proprietarioId":5},{"animalId":7,"nome":"Milu","tipo":"Cachorro","proprietarioId":5},{"animalId":8,"nome":"Emmy","tipo":"Gato","proprietarioId":5},{"animalId":9,"nome":"Amora","tipo":"Cachorro","proprietarioId":6},{"animalId":2,"nome":"petista","tipo":"Cachorro","proprietarioId":6},{"animalId":16,"nome":"fifi","tipo":"Cachorro","proprietarioId":6}]
+2023-08-27T15:19:46.255Z [petshop-api] error GET  - The pets of requested owner doesn't have services
+2023-08-27T15:19:53.694Z [petshop-api] info GET /service - [{"servicoId":1,"descricao":"Tosa","valor":"25","animalId":3},{"servicoId":4,"descricao":"Tosa","valor":"25","animalId":16}]
+2023-08-27T15:20:00.872Z [petshop-api] info GET /pet - [{"animalId":3,"nome":"Mimi","tipo":"Gato","proprietarioId":2},{"animalId":4,"nome":"Dory","tipo":"Cachorro","proprietarioId":3},{"animalId":5,"nome":"Lulu","tipo":"Cachorro","proprietarioId":4},{"animalId":6,"nome":"Bob","tipo":"Cachorro","proprietarioId":5},{"animalId":7,"nome":"Milu","tipo":"Cachorro","proprietarioId":5},{"animalId":8,"nome":"Emmy","tipo":"Gato","proprietarioId":5},{"animalId":9,"nome":"Amora","tipo":"Cachorro","proprietarioId":6},{"animalId":2,"nome":"petista","tipo":"Cachorro","proprietarioId":6},{"animalId":16,"nome":"fifi","tipo":"Cachorro","proprietarioId":6}]
+2023-08-27T15:23:37.695Z [petshop-api] error GET  - The pets of requested owner doesn't have services
+2023-08-27T15:27:00.238Z [petshop-api] info GET /service - [{"servicoId":1,"descricao":"Tosa","valor":"25","animalId":3}]
+2023-08-27T15:27:05.895Z [petshop-api] info GET /service - [{"servicoId":4,"descricao":"Tosa","valor":"25","animalId":16}]
+2023-08-27T15:28:16.218Z [petshop-api] info GET /owner - [{"proprietarioId":1,"nome":"Alda Valentim","telefone":"(39) 98566-1222"},{"proprietarioId":2,"nome":"Nicolas Avelar","telefone":"(28) 97432-0379"},{"proprietarioId":3,"nome":"Emilly Baptista","telefone":"(31) 99545-2457"},{"proprietarioId":4,"nome":"Beatriz Bonilha","telefone":"(35) 98054-4724"},{"proprietarioId":5,"nome":"Nataniel Faleiro","telefone":"(33) 99594-3315"},{"proprietarioId":6,"nome":"Richard t","telefone":"(27) 99597-9170"}]
+2023-08-27T15:28:19.211Z [petshop-api] info POST /owner - {"nome":"Richard Santos","telefone":"(33) 99594-3315"}
+2023-08-27T15:28:24.593Z [petshop-api] info DELETE /owner/:id - "20"
+2023-08-27T15:29:11.181Z [petshop-api] error DELETE  - The Owner requested not exist
+2023-08-27T15:29:14.215Z [petshop-api] info POST /owner - {"nome":"Richard Santos","telefone":"(33) 99594-3315"}
+2023-08-27T15:29:17.794Z [petshop-api] info DELETE /owner/:id - "21"
+2023-08-27T15:29:51.736Z [petshop-api] info POST /pet - {"nome":"fifi","tipo":"Cachorro","proprietarioId":6}
+2023-08-27T15:30:00.302Z [petshop-api] info DELETE /pet/:id - "17"
+2023-08-27T15:32:42.498Z [petshop-api] info GET /owner - [{"proprietarioId":1,"nome":"Alda Valentim","telefone":"(39) 98566-1222"},{"proprietarioId":2,"nome":"Nicolas Avelar","telefone":"(28) 97432-0379"},{"proprietarioId":3,"nome":"Emilly Baptista","telefone":"(31) 99545-2457"},{"proprietarioId":4,"nome":"Beatriz Bonilha","telefone":"(35) 98054-4724"},{"proprietarioId":5,"nome":"Nataniel Faleiro","telefone":"(33) 99594-3315"},{"proprietarioId":6,"nome":"Richard t","telefone":"(27) 99597-9170"}]
+2023-08-27T15:32:45.177Z [petshop-api] info POST /owner - {"nome":"Richard Santos","telefone":"(33) 99594-3315"}
+2023-08-27T15:32:48.833Z [petshop-api] error DELETE  - The Owner requested not exist
+2023-08-27T15:32:54.076Z [petshop-api] info GET /owner - [{"proprietarioId":1,"nome":"Alda Valentim","telefone":"(39) 98566-1222"},{"proprietarioId":2,"nome":"Nicolas Avelar","telefone":"(28) 97432-0379"},{"proprietarioId":3,"nome":"Emilly Baptista","telefone":"(31) 99545-2457"},{"proprietarioId":4,"nome":"Beatriz Bonilha","telefone":"(35) 98054-4724"},{"proprietarioId":5,"nome":"Nataniel Faleiro","telefone":"(33) 99594-3315"},{"proprietarioId":6,"nome":"Richard t","telefone":"(27) 99597-9170"},{"proprietarioId":22,"nome":"Richard Santos","telefone":"(33) 99594-3315"}]
+2023-08-27T15:33:41.674Z [petshop-api] info DELETE /owner/:id - "22"
+2023-08-27T17:49:13.397Z [petshop-api] error POST  - client.close is not a function
+2023-08-27T17:49:35.186Z [petshop-api] error POST  - client is not defined
+2023-08-27T17:51:29.051Z [petshop-api] error POST  - client is not defined
+2023-08-27T17:53:40.693Z [petshop-api] error POST  - client.close is not a function
+2023-08-27T17:54:14.128Z [petshop-api] error POST  - client.close is not a function
+2023-08-27T18:01:02.065Z [petshop-api] info POST /post - {"titulo":"teste","conteudo":"lorem testando","_id":"64eb8f5e1f878988fb5bb67b"}
+2023-08-27T18:02:05.510Z [petshop-api] info POST /post - {"titulo":"teste","conteudo":"lorem testando","_id":"64eb8f9deb53d301e8fc5372"}
+2023-08-27T18:05:13.896Z [petshop-api] info GET /post - [{"_id":"64eb8f9deb53d301e8fc5372","titulo":"teste","conteudo":"lorem testando"}]
+2023-08-27T18:15:29.938Z [petshop-api] error POST  - Required field is missing: id
+2023-08-27T18:16:47.750Z [petshop-api] error POST  - client is not defined
+2023-08-27T18:18:00.856Z [petshop-api] error POST  - mongodb is not defined
+2023-08-27T18:19:00.083Z [petshop-api] error POST  - Class constructor ObjectId cannot be invoked without 'new'
+2023-08-27T18:19:47.539Z [petshop-api] info POST /post - {"id":"64eb8f9deb53d301e8fc5372","nome":"fulado","conteudo":"comentario do fulado"}
+2023-08-27T18:20:22.201Z [petshop-api] info POST /post - {"id":"64eb8f9deb53d301e8fc5372","nome":"fulado","conteudo":"comentario do fulado"}
+2023-08-27T18:49:58.777Z [petshop-api] info GET /owner/:id - 2
+2023-08-27T18:50:02.981Z [petshop-api] info GET /owner - [{"proprietarioId":1,"nome":"Alda Valentim","telefone":"(39) 98566-1222"},{"proprietarioId":2,"nome":"Nicolas Avelar","telefone":"(28) 97432-0379"},{"proprietarioId":3,"nome":"Emilly Baptista","telefone":"(31) 99545-2457"},{"proprietarioId":4,"nome":"Beatriz Bonilha","telefone":"(35) 98054-4724"},{"proprietarioId":5,"nome":"Nataniel Faleiro","telefone":"(33) 99594-3315"},{"proprietarioId":6,"nome":"Richard Santos","telefone":"(27) 99597-9170"}]
+2023-08-27T18:50:50.010Z [petshop-api] info GET /service - [{"servicoId":3,"descricao":"Banho","valor":"30","animalId":6},{"servicoId":6,"descricao":"Banho e Tosa","valor":"60","animalId":7},{"servicoId":8,"descricao":"Consulta","valor":"200","animalId":8}]
+2023-08-27T18:51:26.069Z [petshop-api] info POST /service - {"descricao":"Consulta","valor":200,"animalId":5}
+2023-08-27T18:51:36.151Z [petshop-api] info GET /service - [{"servicoId":2,"descricao":"Banho","valor":"30","animalId":5},{"servicoId":10,"descricao":"Consulta","valor":"200","animalId":5}]
+2023-08-27T18:51:58.219Z [petshop-api] info GET /service - [{"servicoId":4,"descricao":"Banho","valor":"30","animalId":9}]
+2023-08-27T18:52:13.169Z [petshop-api] info GET /service - [{"servicoId":4,"descricao":"Banho","valor":"30","animalId":9}]
+2023-08-27T18:52:29.762Z [petshop-api] info GET /pet/:id - 9
+2023-08-27T18:52:39.515Z [petshop-api] info GET /owner/:id - 6
+2023-08-27T18:52:56.784Z [petshop-api] info GET /service - [{"servicoId":4,"descricao":"Banho","valor":"30","animalId":9}]
+2023-08-27T18:53:10.347Z [petshop-api] info GET /service - [{"servicoId":1,"descricao":"Banho","valor":"30","animalId":1},{"servicoId":2,"descricao":"Banho","valor":"30","animalId":5},{"servicoId":3,"descricao":"Banho","valor":"30","animalId":6},{"servicoId":4,"descricao":"Banho","valor":"30","animalId":9},{"servicoId":5,"descricao":"Banho e Tosa","valor":"60","animalId":2},{"servicoId":6,"descricao":"Banho e Tosa","valor":"60","animalId":7},{"servicoId":7,"descricao":"Consulta","valor":"200","animalId":3},{"servicoId":8,"descricao":"Consulta","valor":"200","animalId":8},{"servicoId":9,"descricao":"Consulta","valor":"200","animalId":2},{"servicoId":10,"descricao":"Consulta","valor":"200","animalId":5}]
+2023-08-27T18:53:29.520Z [petshop-api] info GET /pet/:id - 3
+2023-08-27T18:53:34.727Z [petshop-api] info GET /owner/:id - 2
+2023-08-27T18:54:07.319Z [petshop-api] info GET /service - [{"servicoId":1,"descricao":"Banho","valor":"30","animalId":1}]
+2023-08-27T18:54:37.836Z [petshop-api] error GET  - The pets of requested owner doesn't have services
+2023-08-27T18:59:59.107Z [petshop-api] info GET /service - [{"servicoId":1,"descricao":"Banho","valor":"30","animalId":1},{"servicoId":2,"descricao":"Banho","valor":"30","animalId":5},{"servicoId":3,"descricao":"Banho","valor":"30","animalId":6},{"servicoId":4,"descricao":"Banho","valor":"30","animalId":9},{"servicoId":5,"descricao":"Banho e Tosa","valor":"60","animalId":2},{"servicoId":6,"descricao":"Banho e Tosa","valor":"60","animalId":7},{"servicoId":7,"descricao":"Consulta","valor":"200","animalId":3},{"servicoId":8,"descricao":"Consulta","valor":"200","animalId":8},{"servicoId":9,"descricao":"Consulta","valor":"200","animalId":2},{"servicoId":10,"descricao":"Consulta","valor":"200","animalId":5}]
+2023-08-27T19:00:07.835Z [petshop-api] info GET /pet/:id - 2
