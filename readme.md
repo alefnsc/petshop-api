@@ -68,7 +68,7 @@ This will start the Express server and make the API available at http://localhos
 
 - **getPost():** Retrieves all posts.
 - **createPet(post):** Creates a new post.
-- **creteComment(postId, comment[nome, conteudo]):** Create a new comment on existin post by MongoDB ID.
+- **creteComment(postId, comment[nome, conteudo]):** Create a new comment on existing post by MongoDB ID.
 
 To view object model check [Models](/models).
 
