@@ -47,6 +47,31 @@ This will start the Express server and make the API available at http://localhos
 
 ## 4. Methods
 
+**ElephantSQL(Postgres)**
+
+- **getOwners():** Retrieves all owners.
+- **getOwner(id):** Retrieves an owner by its unique ID.
+- **createOwner(owner):** Creates a new owner.
+- **updateOwner(id, owner):** Updates an existing owner by its ID.
+- **deleteOwner(id):** Deletes an owner by its ID.
+  
+- **getPets():** Retrieves all pets.
+- **getPet(id):** Retrieves an pet by its unique ID.
+- **createPet(pet):** Creates a new pet.
+- **updatePet(id, pet):** Updates an existing pet by its ID.
+- **deletePet(id):** Deletes an pet by its ID.
+  
+- **getService(id):** Retrieves an service by its unique ID.
+- **createService(service):** Creates a new service.
+
+**MongoDB Atlas**
+
+- **getPost():** Retrieves all posts.
+- **createPet(post):** Creates a new post.
+- **creteComment(postId, comment[nome, conteudo]):** Create a new comment on existin post by MongoDB ID.
+
+To view object model check [Models](/models).
+
 ## 5. Libraries Used
 
 - **cors:** A package that enables Cross-Origin Resource Sharing (CORS) in Express applications, allowing controlled access to resources from different origins.
