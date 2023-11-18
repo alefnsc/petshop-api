@@ -1,7 +1,7 @@
 ## Table of Contents
 
 1. [Introduction](#1-introduction)
-2. [Installation](#3-installation)
+2. [Installation](#2-installation)
 3. [Usage](#3-usage)
 4. [Methods](#4-methods)
 5. [Libraries Used](#5-libraries-used)
